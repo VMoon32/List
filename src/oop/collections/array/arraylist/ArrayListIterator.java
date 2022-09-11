@@ -3,7 +3,7 @@ package oop.collections.array.arraylist;
 public class ArrayListIterator{
     private Node actual;
 
-    public LinkedListIterator(Node head){
+    public ArrayListIterator(Node head){
         this.actual = head;
     }
     public boolean hasNext(){
